@@ -9,8 +9,8 @@ app.use(express.static(__dirname + '/public'));
 app.set('view engine', 'pug');
 
 passport.use(new LineStrategy({
-  channelID: '1654282620',
-  channelSecret: '40c88f58a7995b908d03ebaf7285e944',
+  channelID: '<CHANNEL_ID>',
+  channelSecret: '<CHANNEL SECRET>',
   callbackURL: 'http://localhost:3000/auth/line/callback',
   scope: ['profile', 'openid', 'email'],
   botPrompt: 'normal'
