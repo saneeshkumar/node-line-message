@@ -45,7 +45,7 @@ app.get('/login/line', passport.authenticate('line'));
 app.get('/auth/line/callback',
   passport.authenticate('line', {failureRedirect: '/'}),
   function(req, res) {
-    res.redirect('/');
+    res.render('welcome', { user: req.user });
   });
 
 
