@@ -10,7 +10,7 @@
     "line-login": "^1.0.14",
     "passport": "^0.4.1",
     "passport-line-auth": "^0.2.8",
-    "pug": "^3.0.0"
+    "pug": "^3.0.1"
   },
   "devDependencies": {},
   "scripts": {
